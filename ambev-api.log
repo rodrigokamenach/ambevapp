@@ -1,0 +1,49 @@
+2021-08-23T00:15:34.030Z [ambev-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2021-08-23T09:50:12.221Z [ambev-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2021-08-23T09:50:51.620Z [ambev-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2021-08-23T09:53:40.720Z [ambev-api] info /GET /fabrica
+2021-08-23T09:56:28.140Z [ambev-api] info /POST /fabrica - {"nome":501}
+2021-08-23T09:56:33.890Z [ambev-api] info /POST /fabrica - {"nome":503}
+2021-08-23T09:56:38.295Z [ambev-api] info /GET /fabrica
+2021-08-23T09:57:27.510Z [ambev-api] error PUT  - Os campos id, nome e telefone são obrigatórios!
+2021-08-23T09:57:49.399Z [ambev-api] info /UPDATE /fabrica - {"id":2,"nome":"504"}
+2021-08-23T09:57:53.104Z [ambev-api] info /GET /fabrica
+2021-08-23T09:57:58.660Z [ambev-api] info /UPDATE /fabrica - {"id":2,"nome":"503"}
+2021-08-23T09:58:01.468Z [ambev-api] info /GET /fabrica
+2021-08-23T10:05:36.813Z [ambev-api] info /POST /fabrica - {"nome":510}
+2021-08-23T10:05:39.599Z [ambev-api] info /GET /fabrica
+2021-08-23T10:05:45.573Z [ambev-api] info /GET /fabrica - "3"
+2021-08-23T10:05:49.427Z [ambev-api] info /GET /fabrica
+2021-08-23T10:32:19.253Z [ambev-api] info /GET /marca
+2021-08-23T10:36:01.214Z [ambev-api] info /POST /marca - {"descricao":"Antartica"}
+2021-08-23T10:36:04.753Z [ambev-api] info /GET /marca
+2021-08-23T10:50:10.509Z [ambev-api] error POST  - Os campos nome e tipo são obrigatórios!
+2021-08-23T10:51:32.121Z [ambev-api] info /POST /produto - {"codigo":50388002,"descricao":"FOIL 500ML AP ANTARTICA NIV17 V2","marcaId":1}
+2021-08-23T10:51:38.301Z [ambev-api] info /GET /produto
+2021-08-23T10:54:24.697Z [ambev-api] info /GET /produto
+2021-08-23T11:39:42.377Z [ambev-api] error GET  - column contagens.data does not exist
+2021-08-23T11:40:25.459Z [ambev-api] info /GET /contagem
+2021-08-23T11:41:49.709Z [ambev-api] error POST  - notNull Violation: contagens.dat_mov cannot be null
+2021-08-23T11:42:23.396Z [ambev-api] error POST  - Os campos codigo, descricao e marca são obrigatórios!
+2021-08-23T11:42:53.776Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T11:55:13.692Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T11:55:37.888Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T11:58:55.267Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T13:01:06.504Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T13:06:15.318Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T13:15:41.951Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T13:19:14.969Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T13:50:43.656Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T13:52:55.685Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T14:41:13.655Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T14:51:23.785Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T14:57:47.502Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T15:00:52.172Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T15:01:27.468Z [ambev-api] error POST  - invalid input syntax for type date: "Invalid date"
+2021-08-23T15:02:38.137Z [ambev-api] info /POST /contagem - {"dat_mov":"2021-08-23","fabricaId":1,"status":"A"} - 2021-08-23
+2021-08-23T15:03:49.033Z [ambev-api] info /GET /contagem
+2021-08-24T15:52:19.252Z [ambev-api] error GET  - relation "itens_contagems" does not exist
+2021-08-24T15:54:23.913Z [ambev-api] info /GET /item
+2021-08-24T15:56:45.981Z [ambev-api] error POST  - Os campos codigo, descricao e marca são obrigatórios!
+2021-08-24T15:57:00.274Z [ambev-api] info /POST /item - {"produtoId":1,"quantidade":10,"unidade":"CX","contagemId":1}
+2021-08-24T15:57:05.979Z [ambev-api] info /GET /item
