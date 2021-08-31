@@ -1,8 +1,7 @@
 import Sequelize from "sequelize";
 
-const sequelize = new Sequelize(
-    "postgres://postgres:Wsi@@2021@ec2-35-168-8-154.compute-1.amazonaws.com:5432/ambevapp",
-    {
+const sequelize = new Sequelize(	
+	'ambevapp', 'postgres', 'Wsi@@2021', {
         dialect: "postgres",
         define: {
             timestamps: false

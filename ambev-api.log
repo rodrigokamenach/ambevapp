@@ -47,3 +47,39 @@
 2021-08-24T15:56:45.981Z [ambev-api] error POST  - Os campos codigo, descricao e marca são obrigatórios!
 2021-08-24T15:57:00.274Z [ambev-api] info /POST /item - {"produtoId":1,"quantidade":10,"unidade":"CX","contagemId":1}
 2021-08-24T15:57:05.979Z [ambev-api] info /GET /item
+2021-08-24T20:46:54.502Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-24T20:59:31.710Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-24T21:21:11.644Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-24T21:21:14.145Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-24T21:24:00.130Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-24T21:24:02.794Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-24T21:27:07.658Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-24T21:31:12.013Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-25T00:26:14.510Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-25T00:26:16.198Z [ambev-api] error GET  - Ident authentication failed for user "postgres"
+2021-08-25T00:31:09.248Z [ambev-api] info /GET /produto
+2021-08-25T00:31:35.314Z [ambev-api] info /GET /fabrica
+2021-08-25T00:37:33.761Z [ambev-api] info /GET /contagem
+2021-08-25T00:37:55.225Z [ambev-api] info /GET /fabrica
+2021-08-25T00:38:13.063Z [ambev-api] info /GET /fabrica
+2021-08-25T00:43:53.647Z [ambev-api] info /GET /fabrica
+2021-08-25T00:44:16.352Z [ambev-api] info /GET /marca
+2021-08-25T00:44:21.192Z [ambev-api] info /GET /marca
+2021-08-25T02:09:44.814Z [ambev-api] info /GET /produto
+2021-08-25T11:22:40.663Z [ambev-api] info /GET /marca
+2021-08-25T11:24:25.543Z [ambev-api] info /GET /marca
+2021-08-25T11:25:12.592Z [ambev-api] info /GET /fabrica
+2021-08-25T11:34:21.565Z [ambev-api] info /GET /fabrica
+2021-08-25T11:40:47.597Z [ambev-api] error POST  - Os campos nome e tipo são obrigatórios!
+2021-08-25T11:40:54.592Z [ambev-api] info /GET /fabrica
+2021-08-25T11:41:04.005Z [ambev-api] info /GET /fabrica
+2021-08-26T10:46:24.631Z [ambev-api] info /GET /fabrica
+2021-08-31T13:05:38.635Z [ambev-api] info /GET /marca
+2021-08-31T13:07:10.422Z [ambev-api] info /GET /marca
+2021-08-31T13:10:09.828Z [ambev-api] info /GET /marca
+2021-08-31T13:27:49.711Z [ambev-api] info /GET /marca
+2021-08-31T13:32:10.457Z [ambev-api] info /GET /marca
+2021-08-31T14:21:43.285Z [ambev-api] info /GET /marca
+2021-08-31T14:21:52.207Z [ambev-api] info /GET /marca
+2021-08-31T15:07:53.042Z [ambev-api] info /GET /marca
+2021-08-31T15:17:21.208Z [ambev-api] info /GET /marca
