@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import winston from "winston";
 import https from "https";
+import fs from "fs";
 
 import fabricaRouter from "./routers/fabrica.router.js";
 import marcaRouter from "./routers/marca.router.js";
@@ -29,6 +30,12 @@ global.logger = winston.createLogger({
 });
 
 const app = express();
+
+const options = {
+    key: fs.readFileSync('key.pem'),
+    cert: fs.readFileSync('cert.pem')
+};
+
 app.use(express.json());
 app.use(cors());
 
@@ -42,6 +49,9 @@ app.use((err, req, res, next) => {
     logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
     res.status(400).send({ erro: err.message });
 })
-app.listen(3001, () => {
+
+const server = https.createServer(options, app);
+
+server.listen(3001, () => {
     console.log('API Started')
 });
