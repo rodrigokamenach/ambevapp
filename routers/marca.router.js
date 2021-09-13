@@ -1,11 +1,13 @@
 import express from "express";
 import MarcaControler from "../controlers/marca.controler.js"
+import authControler from "../controlers/auth.controler.js";
+
 const router = express.Router();
 
-router.post("/", MarcaControler.createMarca);
-router.put("/", MarcaControler.updateMarca);
-router.delete("/:id", MarcaControler.deleteMarca);
-router.get("/", MarcaControler.getMarcas);
-router.get("/:id", MarcaControler.getMarca);
+router.post("/", authControler.verifyToken, MarcaControler.createMarca);
+router.put("/", authControler.verifyToken, MarcaControler.updateMarca);
+router.delete("/:id", authControler.verifyToken, MarcaControler.deleteMarca);
+router.get("/", authControler.verifyToken, MarcaControler.getMarcas);
+router.get("/:id", authControler.verifyToken, MarcaControler.getMarca);
 
 export default router;

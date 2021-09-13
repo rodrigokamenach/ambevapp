@@ -84,3 +84,6 @@
 2021-08-31T15:07:53.042Z [ambev-api] info /GET /marca
 2021-08-31T15:17:21.208Z [ambev-api] info /GET /marca
 2021-08-31T21:03:19.846Z [ambev-api] info /GET /fabrica
+2021-09-13T23:33:47.647Z [ambev-api] error GET  - Necessário autenticação
+2021-09-13T23:34:32.249Z [ambev-api] info /GET /fabrica
+2021-09-13T23:43:54.270Z [ambev-api] error GET  - Token inválido ou expirado
