@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import winston from "winston";
-import https from "https";
+import http from "http";
 import fs from "fs";
 
 import fabricaRouter from "./routers/fabrica.router.js";
@@ -50,7 +50,7 @@ app.use((err, req, res, next) => {
     res.status(400).send({ erro: err.message });
 })
 
-const server = https.createServer(options, app);
+const server = http.createServer(options, app);
 const host = "0.0.0.0";
 
 server.listen(process.env.PORT || 5000, host, () => {
