@@ -52,6 +52,6 @@ app.use((err, req, res, next) => {
 
 const server = https.createServer(options, app);
 
-server.listen(3001, () => {
+server.listen(process.env.PORT || 5000, () => {
     console.log('API Started')
 });
